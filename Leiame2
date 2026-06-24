@@ -1,0 +1,22 @@
+# Saneamento Rural no Espírito Santo — Análise por Setores Censitários
+
+## Visão geral
+
+Este projeto organiza, trata, integra, espacializa e analisa dados do Censo Demográfico 2022 relacionados ao saneamento e à população dos setores censitários do Estado do Espírito Santo.
+
+O fluxo foi desenvolvido em Python para execução em Google Colab e produz bases tabulares e geoespaciais destinadas ao diagnóstico do saneamento rural, à identificação de áreas vulneráveis e à priorização territorial de programas de implantação de biodigestores.
+
+A versão atualizada contempla:
+
+* consolidação dos dados de saneamento;
+* integração com dados demográficos;
+* identificação de setores censitários rurais;
+* associação com a geometria oficial dos setores;
+* geração de mapas por setor e distrito;
+* cálculo de indicadores de demanda potencial por biodigestores;
+* análise de risco de lançamento em corpos hídricos;
+* classificação da dispersão territorial;
+* tipologia de prioridade para intervenção;
+* exportação em CSV, Parquet, GeoPackage, Shapefile, PNG e PDF;
+* compactação e download dos resultados no Google Colab.
+  ::: 
