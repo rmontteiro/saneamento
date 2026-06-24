@@ -1,0 +1,20 @@
+Rural Sanitation in Espírito Santo — Analysis by Census Sectors
+Overview
+
+This project organizes, processes, integrates, spatializes, and analyzes data from the 2022 Demographic Census related to sanitation and population in the census sectors of the State of Espírito Santo.
+
+The workflow was developed in Python for execution in Google Colab and produces tabular and geospatial datasets aimed at diagnosing rural sanitation conditions, identifying vulnerable areas, and supporting territorial prioritization for biodigester implementation programs.
+
+The updated version includes:
+
+consolidation of sanitation data;
+integration with demographic data;
+identification of rural census sectors;
+linkage with official sector geometries;
+generation of maps by sector and district;
+calculation of indicators for potential biodigester demand;
+analysis of discharge risk into water bodies;
+classification of territorial dispersion;
+prioritization typology for intervention;
+export in CSV, Parquet, GeoPackage, Shapefile, PNG, and PDF formats;
+compression and download of results in Google Colab.
